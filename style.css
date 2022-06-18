@@ -1,0 +1,34 @@
+*{ display: flexbox;
+padding: 0;
+
+}
+
+
+.texto > p { 
+    display: flexbox;
+    margin-left: 25%; 
+    margin-right: 25%;   
+}
+
+img.txt {
+ width: 100%;  
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+h1{ text-align: center;}
+
+.regiao { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       background-color:  aquamarine;    
+    width: 300px;
+    width: 25em; 
+  
+ 
+   
+   
+   
+
+}
