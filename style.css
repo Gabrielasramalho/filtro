@@ -30,7 +30,9 @@ figure {float: right;
     float:inline-end;
           width: 500px;
           
-  }     
+  }  
+  
+  
 
 
 
@@ -40,7 +42,7 @@ figure {float: right;
     margin-right: 25%;   
    font-family: Lato e Merriweather;
 }
-output { display: none;}
+
 
 img {
  width: 100%;  
