@@ -1,34 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Fira+Sans:ital,wght@0,100;0,200;0,600;0,700;1,100;1,500&family=Inter:wght@400;600&family=League+Spartan:wght@100&family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Fira+Sans:ital,wght@0,100;0,200;0,600;0,700;1,100;1,500&family=Inter:wght@400;600&family=Merriweather&display=swap');
+
+
 *{ display: flexbox;
 padding: 0;
-
 }
+ 
+hr{ width: 400px;
+padding: 0;
+margin-top: 1px;
+border-top: solid red;
+border-bottom: 0;
+}
+ figure > figcaption { font-size: x-small;
+    border-left: thin solid black; 
+    padding: 2%;   
+    text-align: start;
+     }
+
+figure {float: right;
+    border: transparent thin solid;
+    padding: 1px;    
+    max-width: 350px;
+ }
+
+ figure > .onca {
+    float:inline-end;
+          width: 500px;
+          
+  }     
 
 
-.texto > p { 
+
+ p { 
     display: flexbox;
     margin-left: 25%; 
     margin-right: 25%;   
+   font-family: Lato e Merriweather;
 }
+output { display: none;}
 
-img.txt {
+img {
  width: 100%;  
   padding: 0;
   margin: 0;
   border: 0;
 }
-h1{ text-align: center;}
 
-.regiao { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-       background-color:  aquamarine;    
-    width: 300px;
-    width: 25em; 
-  
- 
-   
-   
-   
+a { color: #1338BE}
 
+h1,h2,h3{ text-align: center;
+font-family: Bebas Neue;
+letter-spacing: 1px;}
+
+h1{ color: black;
+    
 }
+
+.especial { 
+    display: flexbox;
+    border-left: solid red;
+    border-inline-end-style: 2rem;
+    padding: 1rem;
+   max-width: 450px;
+   margin-left: 40%;
+   clear: initial;
+}
+
+        .selecaoRegiao {         
+        justify-content: center;
+        align-items: center; }
+    
+        select { background-color: black;
+        color: white;}
+
+        
+
+            .criterio { 
+                margin-left: 25%;
+                margin-right: 25%;              
+                display: flexbox;
+                 border: solid black;
+                 clear: both;                
+                 }
+            .criterio > p { margin:  5%;}
+            
+
+           
+
+      /* @media screen and (min-width: 300px) {
+           p { 
+            margin-left: 10%; 
+            margin-right: 10%; }
+         .especial {max-width: 300px; }
+    
+        }  pq ta aplicando pra tudo?*/
+
+       
+     
+          
