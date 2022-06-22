@@ -30,12 +30,12 @@
         <p>
           A seleção reúne territórios, como a Cidade de Quito no Equador, o Centro Histórico de Puebla no México e o Cairo histórico, no Egito, entre outros. No Brasil, são 23 sítios de diversos tamanhos que recebem o título; seja pelo valor cultural ou natural, a lista abrange pontos de Norte a Sul do país, com diferentes características que os tornam tão valiosos para a humanidade. 
         </p>
-             
+             <!-- TROCAR CLASS POR VALUE-->
               <div class="selecaoRegiao">
                  <h3>Conheça os Patrimônios da Humanidade em:
                 <select>
-                <option class="brasilOption">  Brasil </option>
-                  <option class="norteOption"> <b> Região Norte</b> </option>
+                <option value="brasilOption">  Brasil </option>
+                  <option value="norteOption"> <b> Região Norte</b> </option>
                   <option class="nordesteOption"> <b> Região Nordeste </b> </option>
                   <option class="centroOesteOption"> <b> Região Centro-Oeste </b> </option>
                   <option class="sudesteOption"> <b> RegiãoSudeste</b> </option>
@@ -43,7 +43,7 @@
                  </select>                 
                </div>
 
-                <output  class="norte">  
+                <output data-texto-regiao="norteOption-natural" class="norte">  
                                  
                    <section class="capaRegiao"> 
                    <img src="img/Complexo de Conservação da Amazônia Centra.svg" alt="Complexo de  Conservação da Amazônia Central">

@@ -86,8 +86,11 @@ width: 300px;}
     background-color: rgba(0,0,0,0.5);
     font-size: x-large;     
      }
- 
+     
+
+
    
+     [data-texto-regiao] { display: none;}
 
  .especial { 
     display: flexbox;
