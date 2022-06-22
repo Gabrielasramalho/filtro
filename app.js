@@ -14,34 +14,17 @@ function ouvirChange() {
    
     output.style.display="block"
       console.log("[data-texto-regiao ='" + regiaoSelecionada +"']" )
-      alterarPopup 
- }
+}      
 
 //crio outro seletor e colocar dentro da função change data-texto-regiao
 
 
 
-
-
-
-function alterarPopup ( )  { 
+//criar uma fução para ouvir o option no select 
+//colocar popup na resposta para aparecer uma notinha complementar 
+function alterarPopup() { 
     //pega o elemento da classe popup1 e cria uma classe ativa
-    documento . getElementById ( "popup-1" ) . classList . alternar ( "ativa" ) ;
+    document.getElementById("popup-1").classList.toggle("ativa");
      }
 
 
-
-
-
- 
-
- 
- 
-
-
-
- 
-   
-   
-
-     
