@@ -18,19 +18,18 @@ let saidaNorte = document.querySelector( ".norte")
 
 
 //criar uma fução para ouvir o option no select 
-function(){
-entradaNorte.addEventListener(
- "change", checar )
- }
-  
- //escuta o evento de preencher p/ criar o loop
-     function identificarEstado(){       
-          if (option =="") {
-           habilitar.disabled = true; 
-                                      } 
-         else {
-         habilitar.disabled = false;}
-       }
+//colocar popup na resposta para aparecer uma notinha complementar 
+function alterarPopup() { 
+  //pega o elemento da classe popup1 e cria uma classe ativa
+  document.getElementById("popup-1").classList.toggle("ativa");
+   }
+
+
+ 
+
+ 
+ 
+
 
 
  
