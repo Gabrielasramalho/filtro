@@ -3,25 +3,21 @@
 let seletorRegiao = document.querySelector(".selecaoRegiao select")
 
 //ouvir evento de change 
-
 seletorRegiao.addEventListener( "change", ouvirChange)
 
+//função de mostrar e esconder os conteúdos do output de acordo com a seleção
 function ouvirChange() { 
    let regiaoSelecionada= seletorRegiao.value
+   //este let "natural" se refere ao um seletor que ainda será criado para a versão final deste projeto, que pretende separar os locais em "patrimonio natural/cultural"
    let patrimonioSelecionado= 'natural'
    let output=document.querySelector("[data-texto-regiao ='" + regiaoSelecionada + "-" + patrimonioSelecionado +"']") 
-   //$ = sintax para substituir na stringe  o valor que estiver dentro do {} ex: `[data-texto-regiao="${regiaoSelecionada}"]`
-   
-    output.style.display="block"
+   //(anotação para simplificar a linha de código anterior) $ = sintax para substituir na stringe  o valor que estiver dentro do {} ex: `[data-texto-regiao="${regiaoSelecionada}"]`
+       output.style.display="block"
       console.log("[data-texto-regiao ='" + regiaoSelecionada +"']" )
 }      
 
-//crio outro seletor e colocar dentro da função change data-texto-regiao
 
-
-
-//criar uma fução para ouvir o option no select 
-//colocar popup na resposta para aparecer uma notinha complementar 
+//Criar função para alterar o estado do popup
 function alterarPopup() { 
     //pega o elemento da classe popup1 e cria uma classe ativa
     document.getElementById("popup-1").classList.toggle("ativa");
